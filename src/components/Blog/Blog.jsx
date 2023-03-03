@@ -6,7 +6,7 @@ const Blog = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "posts"][0..2]';
+    const query = '*[_type == "posts"][0..5]';
 
     client.fetch(query).then((data) => {
       setPosts(data);
