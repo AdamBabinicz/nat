@@ -14,7 +14,7 @@ const Topics = () => {
   const [currentImage, setCurrentImage] = useState(frequencies);
 
   return (
-    <section id="topics" className="black">
+    <section id="umiejetnosci" className="black">
       <div className="wrapper">
         <h2>Czego się nauczyłem?</h2>
         <div className="content-container">

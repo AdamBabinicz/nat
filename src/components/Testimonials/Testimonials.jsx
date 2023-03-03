@@ -13,7 +13,7 @@ const Testimonials = () => {
     });
   }, []);
   return (
-    <section id="testimonials" className="dark-gray">
+    <section id="powiedzieli" className="dark-gray">
       <div className="wrapper">
         <h2>Co powiedzieli znani o dzieciach?</h2>
 

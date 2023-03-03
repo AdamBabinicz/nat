@@ -1,29 +1,29 @@
-#testimonials .content-container {
+#powiedzieli .content-container {
   margin-top: 50px;
   justify-content: space-between;
 }
-#testimonials .testimonial {
+#powiedzieli .testimonial {
   width: 264px;
 }
-#testimonials .testimonial img {
+#powiedzieli .testimonial img {
   width: 100px;
   height: 100px;
   object-fit: cover;
   border-radius: 10px;
 }
-#testimonials .testimonial .name {
+#powiedzieli .testimonial .name {
   font-family: "Alegreya", serif;
   font-weight: 700;
   font-size: 20px;
   margin-top: 16px;
 }
-#testimonials .testimonial .company-name {
+#powiedzieli .testimonial .company-name {
   font-size: 14px;
   text-transform: uppercase;
   padding: 6px 0;
   opacity: 0.7;
 }
-#testimonials .testimonial .review {
+#powiedzieli .testimonial .review {
   font-family: "Alegreya", serif;
   font-weight: 400;
   font-size: 16px;
@@ -34,13 +34,13 @@
 /* Tablet Version */
 
 @media only screen and (max-width: 1040px) {
-  #testimonials .content-container {
+  #powiedzieli .content-container {
     flex-direction: column;
     gap: 50px;
     margin-left: 20px;
     margin-top: 50px;
   }
-  #testimonials .testimonial {
+  #powiedzieli .testimonial {
     display: flex;
     gap: 28px;
     width: 100%;
@@ -50,12 +50,12 @@
 /* Smartphone Version */
 
 @media only screen and (max-width: 720px) {
-  #testimonials .testimonial {
+  #powiedzieli .testimonial {
     flex-direction: column;
     align-items: center;
     gap: 16px;
   }
-  #testimonials .testimonial .reviewer-details {
+  #powiedzieli .testimonial .reviewer-details {
     text-align: center;
   }
 }

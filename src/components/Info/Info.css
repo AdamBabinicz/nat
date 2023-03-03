@@ -1,4 +1,4 @@
-#info .info-content {
+#normy .info-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,24 +6,24 @@
   gap: 4px;
   margin-top: 60px;
 }
-#info .info-content img {
+#normy .info-content img {
   width: 150px;
   height: 150px;
   object-fit: contain;
 }
-#info .info-content .amount {
+#normy .info-content .amount {
   font-weight: 800;
   font-size: 40px;
 }
-#info .info-content .type {
+#normy .info-content .type {
   font-family: "Alegreya", serif;
   font-weight: 700;
   font-size: 30px;
 }
-#info .wrapper {
+#normy .wrapper {
   position: relative;
 }
-#info .bg-element-2 {
+#normy .bg-element-2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -32,20 +32,20 @@
 /* Smartphone Version */
 
 @media only screen and (max-width: 720px) {
-  #info .content-container {
+  #normy .content-container {
     flex-direction: column;
     gap: 80px;
   }
-  #info .content-container img {
+  #normy .content-container img {
     height: 100px;
   }
-  #info .info-content .amount {
+  #normy .info-content .amount {
     font-size: 32px;
   }
-  #info .info-content .type {
+  #normy .info-content .type {
     font-size: 24px;
   }
-  #info .bg-element-2 {
+  #normy .bg-element-2 {
     top: -30px;
     left: 32px;
   }

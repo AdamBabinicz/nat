@@ -4,7 +4,7 @@ import { studentIcon, videoIcon, bgElement2 } from "../../assets";
 
 const Info = () => {
   return (
-    <section id="info" className="dark-gray">
+    <section id="normy" className="dark-gray">
       <div className="wrapper">
         <div className="content-container">
           <div className="info-content">
