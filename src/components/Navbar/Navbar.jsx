@@ -14,11 +14,11 @@ const Navbar = () => {
 
         <ul>
           <li>
-            <a href="#topics">Course Details</a>
+            <a href="#topics">Umiejętności</a>
           </li>
 
           <li>
-            <a href="#info">About</a>
+            <a href="#info">Normy</a>
           </li>
 
           <li>
@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#testimonials">Powiedzieli</a>
           </li>
         </ul>
 
@@ -43,13 +43,13 @@ const Navbar = () => {
         <ul className="menu-items">
           <li>
             <a href="#topics" onClick={() => setIsActive(false)}>
-              Course Details
+              Umiejętności
             </a>
           </li>
 
           <li>
             <a href="#info" onClick={() => setIsActive(false)}>
-              About
+              Normy
             </a>
           </li>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
 
           <li>
             <a href="#testimonials" onClick={() => setIsActive(false)}>
-              Testimonials
+              Powiedzieli
             </a>
           </li>
         </ul>

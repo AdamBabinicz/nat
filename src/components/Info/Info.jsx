@@ -14,7 +14,7 @@ const Info = () => {
           </div>
           <div className="info-content">
             <img src={videoIcon} alt="..." />
-            <div className="amount">min 3x</div>
+            <div className="amount">min 2x</div>
             <div className="type">na tydzień</div>
           </div>
         </div>

@@ -16,24 +16,20 @@ const Topics = () => {
   return (
     <section id="topics" className="black">
       <div className="wrapper">
-        <h2>What will you learn?</h2>
+        <h2>Czego się nauczyłem?</h2>
         <div className="content-container">
           <ul className="topics-list">
-            <li onClick={() => setCurrentImage(frequencies)}>
-              What are frequencies?
-            </li>
-            <li onClick={() => setCurrentImage(daw)}>What are frequencies?</li>
+            <li onClick={() => setCurrentImage(daw)}>Siedzieć</li>
+            <li onClick={() => setCurrentImage(frequencies)}>Raczkować</li>
             <li onClick={() => setCurrentImage(vocalsProcessing)}>
-              What are frequencies?
+              Jeść w foteliku
             </li>
-            <li onClick={() => setCurrentImage(mixing)}>
-              What are frequencies?
-            </li>
+            <li onClick={() => setCurrentImage(mixing)}>Bawić się zabawkami</li>
             <li onClick={() => setCurrentImage(mixingConsole)}>
-              What are frequencies?
+              Wstawać do pionu
             </li>
             <li onClick={() => setCurrentImage(mastering)}>
-              What are frequencies?
+              Obgryzać książeczki
             </li>
           </ul>
           <div className="topic-image">

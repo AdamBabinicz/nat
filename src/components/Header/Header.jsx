@@ -8,8 +8,8 @@ const Header = () => {
       <div className="wrapper">
         <Navbar />
         <div className="cta">
-          <p className="course-name">Sound</p>
-          <h1>Learn</h1>
+          <p className="course-name">dar od Boga</p>
+          <h1>Dziecko</h1>
           <a href="#" className="demo-btn">
             Demo
           </a>
