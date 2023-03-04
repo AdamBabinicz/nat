@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://habitat-nat.netlify.app/sitemap.xml
