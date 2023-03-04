@@ -63,7 +63,7 @@ const Blog = () => {
             wszystko.
           </p> */}
           <div className="services__modal-services">
-            <video autoPlay controls>
+            <video controls>
               <source src={img} type="video/mp4" />
             </video>
           </div>

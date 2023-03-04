@@ -173,7 +173,7 @@ section .content-container {
     font-size: 0.8rem;
   }
   .services__modal-services video {
-    height: 500px !important;
+    height: 400px !important;
     object-fit: cover;
   }
 }
