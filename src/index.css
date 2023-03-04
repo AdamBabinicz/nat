@@ -172,4 +172,8 @@ section .content-container {
   .services__modal-description {
     font-size: 0.8rem;
   }
+  .services__modal-services video {
+    height: 500px !important;
+    object-fit: cover;
+  }
 }
