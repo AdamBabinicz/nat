@@ -54,10 +54,10 @@
 /* Smartphone Version */
 
 @media only screen and (max-width: 720px) {
-  #topics .topic-image img {
+  #umiejetnosci .topic-image img {
     display: none;
   }
-  #topics .bg-element-1 {
+  #umiejetnosci .bg-element-1 {
     right: 32px;
   }
 }

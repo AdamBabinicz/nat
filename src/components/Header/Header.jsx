@@ -11,7 +11,7 @@ const Header = () => {
           <p className="course-name">dar od Boga</p>
           <h1>Dziecko</h1>
           <a href="#" className="demo-btn">
-            Demo
+            Zobacz
           </a>
         </div>
       </div>
