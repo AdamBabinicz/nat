@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { urlFor, client } from "../../client";
 import "./Blog.css";
+import img from "../../assets/1.mp4";
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
+
+  const [toggleState, setToggleState] = useState(0);
+  const toggleTab = (index) => {
+    setToggleState(index);
+  };
 
   useEffect(() => {
     const query = '*[_type == "posts"][0..5]';
@@ -33,9 +39,34 @@ const Blog = () => {
         </div>
 
         <div className="btn-container">
-          <a href="#" className="all-posts-btn">
-            Wszystkie posty
+          <a href="#" className="all-posts-btn" onClick={() => toggleTab(1)}>
+            Obejrzyj
           </a>
+        </div>
+      </div>
+      <div
+        className={
+          toggleState === 1 ? "services__modal active-modal" : "services__modal"
+        }
+      >
+        <div className="services__modal-content">
+          <i
+            onClick={() => toggleTab(0)}
+            className="uil uil-times services__modal-close"
+          ></i>
+          {/* <h3 className="services__modal-title">Ochrona planety i kieszeni</h3>
+          <p className="services__modal-description">
+            Gotuję przeważnie jakieś potrawy, które wymyślam, mając do
+            wykorzystania jakiś produkt przeważnie, żeby zapobiec jego
+            wyrzuceniu lub zepsuciu. Metoda "zero waste", ponieważ nie lubię
+            wyrzucać jedzenia i&nbsp;jestem w stanie przerobić praktycznie
+            wszystko.
+          </p> */}
+          <div className="services__modal-services">
+            <video width="auto" height="auto" autoPlay controls>
+              <source src={img} type="video/mp4" />
+            </video>
+          </div>
         </div>
       </div>
     </section>

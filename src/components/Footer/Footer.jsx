@@ -12,28 +12,46 @@ const Footer = () => {
               Habitat<span className="red">Nataniela</span>
             </a>
             <div className="social-icons">
-              <a href="#">
+              <a
+                href="https://www.facebook.com/ewa.kucharska.5439"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={facebookLogo} alt="..." />
               </a>
-              <a href="#">
+              <a
+                href="https://twitter.com/Ewa28502857?fbclid=IwAR0U3ELpE1OiUabwe__nQuLZzJpJnLSjfDduhITYGt7f-ljLlMqMTcFVX0U"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={twitterLogo} alt="..." />
               </a>
-              <a href="#">
+              <a
+                href="https://www.instagram.com/ewa1989/?fbclid=IwAR28hBz-zC2FrpGtBy8CNQwOebyI2u0WFM0uANx84fqIa8TDU7mZ0DNU8Rc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={instagramLogo} alt="..." />
               </a>
             </div>
             <div className="copyright">
-              <a href="https://a-g.netlify.app">a-g</a>
+              <a
+                href="https://a-g.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                a-g
+              </a>
             </div>
           </div>
           <div className="links">
             <h3>Szybkie linki</h3>
             <ul>
               <li>
-                <a href="#">Blog</a>
+                <a href="#blog">Blog</a>
               </li>
               <li>
-                <a href="#">Polityka prywatności</a>
+                <a href="#umiejetnosci">Umiejętności</a>
               </li>
             </ul>
           </div>
