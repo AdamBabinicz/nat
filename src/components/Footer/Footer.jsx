@@ -64,7 +64,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="copyright mobile">
-            Radom, 2022 - {new Date().getFullYear()}.
+            Radom, 2023 - {new Date().getFullYear()}.
           </div>
         </div>
       </div>
